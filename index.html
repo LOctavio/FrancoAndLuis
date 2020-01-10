@@ -7,31 +7,53 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1 id="title">Project HTML</h1>
-    <p id="description">It is our project</p>
-    <form id="survey-form">
-      <label id="name-label">Name:</label>
-      <input id="name" type="text" placeholder="Insert the name" required/>
-      <br>
-      <label id="email-label">Email:</label>
-      <input id="email"  type="email" placeholder="Insert the email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required/>
-      <br>
-      <label id="number-label">Number:</label>
-      <input id="number" min="0" max="100" type="number" placeholder="Insert the number" required/>
-      <select id="dropdown">
-        <option>first</option>
-        <option>second</option>
-      </select>
-      <br>
-      <input type="radio" name="name" value="first">first<br>
-      <input type="radio" name="name" value="second">second<br>
-      <br>
-      <input type="checkbox" name="check" value="first">first<br>
-      <input type="checkbox" name="check" value="second">second<br>
+    <main>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      <h1 id="title">Project HTML</h1>
+      <section class="center">
+        <p id="description">It is our project</p>
+      </section>
+      
+      <form id="survey-form">
+        <section class="center">
+          <label id="name-label">Name:</label>
+          <input id="name" type="text" placeholder="Insert the name" required>
+          </br>
+          <label id="email-label">Email:</label>
+          <input id="email"  type="email" placeholder="Insert the email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+          </br>
+          <label id="number-label">Number:</label>
+          <input id="number" min="0" max="100" type="number" placeholder="Insert the number" required>
+          </br>
+          <select id="dropdown">
+            <option>first</option>
+            <option>second</option>
+          </select>
+        </section>
+        
+        </br>
+        <section class="options">
+          <input type="radio" name="name" value="first" >first<br>
+          <input type="radio" name="name" value="second" >second<br>
+        
+        
+        <br>
+        
+          <input type="checkbox" name="check" value="first">first<br>
+          <input type="checkbox" name="check" value="second">second<br>
+        </section>
+        
+        <section class="center">
+          <textarea>Comments</textarea>
+          <br>
 
+          <input type= "submit" id="submit">
+        </section>
+        
+      
+      </form>
+    </main>
     
-    </form>
     <!--
 
     Hello Camper!
