@@ -11,14 +11,15 @@
     <h1 id="title">Project HTML</h1>
     <p id="description">It is our project</p>
     <form id="survey-form">
-      Name:
+      <label id="name-label">Name:</label>
       <input id="name" type="text" required/>
       <br>
-      Email:
+      <label id="email-label">Email:</label>
       <input id="email"  type="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required/>
       <br>
-      Number:
-      <input id="number" type="number" required/>
+      <label id="number-label">Number:</label>
+      <input id="number" min="0" max="100" type="number" required/>
+
     </form>
     <!--
 
